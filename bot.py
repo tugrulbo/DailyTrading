@@ -214,7 +214,7 @@ if __name__ == '__main__':
                     connection, pair, "4h", 66)
                 supertrend_4h = generateSuperTrend_new('4h', pair, 10, 3)
                 print("4 saatlik data getirildi")
-
+                # deneme
                 if (liste_json[i]['signalSend'] == False):
                     print(pair, close_array_1d[-1])
                     print(
